@@ -8,3 +8,4 @@ buttonTwo.style.backgroundColor = "green";
 
 let buttonThree = document.getElementById("challenge-3");
 buttonThree.classList.add("danger");
+buttonThree.style.backgroundColor = "red";
