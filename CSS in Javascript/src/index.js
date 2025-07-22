@@ -1,12 +1,10 @@
-// Challenge one
 const button = document.querySelector("button");
 
 button.setAttribute("name", "challenge-1");
 button.setAttribute("disabled", "");
 
-// Challenge two
-let heading = documentquerySelector("h3");
-heading.style.backgroundColor = "green";
+let buttonTwo = document.getElementById("challenge-2");
+buttonTwo.style.backgroundColor = "green";
 
-
-//Challenge three
+let buttonThree = document.getElementById("challenge-3");
+buttonThree.classList.add("danger");
